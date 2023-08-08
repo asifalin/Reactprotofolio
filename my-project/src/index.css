@@ -14,3 +14,41 @@ code {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.wrapper::before{
+  position: absolute;
+  left: -12%;
+  top: 40%;
+  content: '';
+  height: 480px;
+  width: 480px;
+  border-radius: 50%;
+  background:linear-gradient(45deg, #7f00ff, pink);
+  animation: object1 4s linear infinite;
+
+}
+@keyframes object1 {
+ 50%{
+     left: -13%;
+     top: 41%;
+ }
+}
+.wrapper::after{
+  position: absolute;
+  content: '';
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  left: 50%;
+  top: 30%;
+  background:linear-gradient(45deg, #7f00ff, pink);
+  animation: object2 4s linear infinite;
+
+}
+
+@keyframes object2 {
+  50%{
+      left: 50%;
+      top: 40%;
+  }
+}
