@@ -13,7 +13,7 @@ function Navbar() {
         <ul className="navItem flex space-x-10 text-[#3d535f] tracking-[3px]  ">
           <li ><a href="#">Home</a></li>
           <li ><a href="#">About</a></li>
-          <li ><a href="#">Skills</a></li>
+          <li ><a href="#">Skill</a></li>
           <li ><a href="#">Blog</a></li>
         </ul>
       
